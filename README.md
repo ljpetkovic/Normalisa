@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Norma Lisa
 
-You can use the [editor on GitHub](https://github.com/mriguet/Normalisa/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Outil à base de règles et de ressources linguistiques pour normaliser automatiquement l'orthographe de textes français.
+Ce script a été élaboré à l'occasion d'une collaboration de plusieurs mois avec l'équipe d'ARTFL (Université de Chicago) au printemps 2018.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Objectifs
 
-### Markdown
+Rendre possible des études diachroniques variées (recherches d'occurrences, textométrie, _topic modeling_, collocations…) sur des corpus de vaste ampleur, datant du XVIe au XXe siècle.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Ce script, en cours de perfectionnement, est voué à être mise à disposition de la communauté scientifique en accès libre sur GitHub.
+Il est actuellement appliqué au corpus FRANTEXT (3559 textes publiés entre le XVIe et le XXe siècle) via la plateforme d’analyse textuelle _Philologic4_, développé par ARTFL).
+Il sert également d’autres projets au sein du Labex OBVIL (Sorbonne Université), à l’instar du projet « Haine du théâtre », qui s’appuie sur un corpus d'une centaine de textes non modernisés du XVIe siècle.
 
-```markdown
-Syntax highlighted code block
+### Fonctionnement
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mriguet/Normalisa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+_Norma Lisa_ s’appuie sur plusieurs bases lexicales ouvertes, développées par l’ATILF : _Morphalou_, lexique ouvert de formes fléchies du français ; et _LGeRM_, lexique morphologique répertoriant les flexions et variations orthographiques du moyen-français et du français des XVIe-XVIIe siècles. A partir de ces ressources, il réalise sur chaque mot/token du texte, selon son étiquetage grammatical, une somme de transformations.

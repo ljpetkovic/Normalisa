@@ -9,7 +9,8 @@ Rendre possible des études diachroniques variées (recherches d'occurrences, te
 
 Ce script, en cours de perfectionnement, est voué à être mis à disposition de la communauté scientifique en accès libre sur GitHub.
 Il est actuellement appliqué au corpus FRANTEXT (3559 textes publiés entre le XVIe et le XXe siècle) via la plateforme d’analyse textuelle _Philologic4_, développé par ARTFL).
-Il sert également d’autres projets au sein du Labex OBVIL (Sorbonne Université), à l’instar du projet « Haine du théâtre », qui s’appuie sur un corpus d'une centaine de textes non modernisés du XVIe siècle.
+Il sert d’autres projets au sein du Labex OBVIL (Sorbonne Université), tel que le projet « Haine du théâtre », qui établit l'édition numérique savante d'une centaine de textes non modernisés du XVIe siècle.
+Il a également aidé à la normalisation des textes en français du projet _Electronic Enlightenment_ de la Bibliothèque Bodleian (Oxford).
 
 ### Fonctionnement
 

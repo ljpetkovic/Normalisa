@@ -7,7 +7,7 @@ Ce script a été élaboré à l'occasion d'une collaboration de plusieurs mois 
 
 Rendre possible des études diachroniques variées (recherches d'occurrences, textométrie, _topic modeling_, collocations…) sur des corpus de vaste ampleur, datant du XVIe au XXe siècle.
 
-Ce script, en cours de perfectionnement, est voué à être mise à disposition de la communauté scientifique en accès libre sur GitHub.
+Ce script, en cours de perfectionnement, est voué à être mis à disposition de la communauté scientifique en accès libre sur GitHub.
 Il est actuellement appliqué au corpus FRANTEXT (3559 textes publiés entre le XVIe et le XXe siècle) via la plateforme d’analyse textuelle _Philologic4_, développé par ARTFL).
 Il sert également d’autres projets au sein du Labex OBVIL (Sorbonne Université), à l’instar du projet « Haine du théâtre », qui s’appuie sur un corpus d'une centaine de textes non modernisés du XVIe siècle.
 

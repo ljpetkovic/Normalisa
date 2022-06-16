@@ -458,7 +458,7 @@ if __name__ == "__main__":
     words_list = tokenized_corpus(path)
     results = building_new_dict(words_list)
     print("dict done")
-    f = open('corpus_tok/voltaire.txt','r', encoding='utf-8')
+    f = open('corpus/voltaire.txt','r', encoding='utf-8')
     filedata = f.read()
     with open("voltaire_dico.txt", "w") as doc:
         for i, y in results.items():

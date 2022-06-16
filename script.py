@@ -2,6 +2,7 @@ import re
 import os
 import csv
 import spacy
+import glob
 from spacy.tokenizer import Tokenizer
 from spacy.lang.fr import French
 import fileinput
@@ -52,7 +53,7 @@ with open("LGeRM-LexiqueMorphologique-MODE-1.0.0.xml", encoding="latin-1") as LG
             formset += line
             
 dict_FM = {}
-with open("Morphalou-1.0.1.xml", encoding="latin-1") as Morphalou:
+with open("Morphalou-1.0.1.xml", encoding="iso-8859-1") as Morphalou:
     formset = ""
     for line in Morphalou:
         if "<lexicalEntry" in line:
@@ -453,11 +454,29 @@ def building_new_dict(words_list):
     return(new_dict)
 
 if __name__ == "__main__":
-    path = ""
+    path = "/home/ljudmila/Téléchargements/Normalisa-master/corpus_tok/"
     words_list = tokenized_corpus(path)
     results = building_new_dict(words_list)
     print("dict done")
-    with open("dict-modernisation-Holbach.text", "w") as doc:
+    f = open('corpus_tok/voltaire.txt','r', encoding='utf-8')
+    filedata = f.read()
+    with open("traite_dico.txt", "w") as doc:
         for i, y in results.items():
-                print(i, " : ", y, file=doc)
-   
+            print(i, " : ", y, file=doc)
+            print(i)
+            print(y)
+            while i in filedata:
+            	filedata = filedata.replace(i,y)
+            	#print(filedata)
+
+    with open('traite_out.txt','w', encoding='utf-8') as f_out:
+        f_out.write(filedata)
+        
+
+
+
+
+
+
+
+

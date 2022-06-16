@@ -460,7 +460,7 @@ if __name__ == "__main__":
     print("dict done")
     f = open('corpus_tok/voltaire.txt','r', encoding='utf-8')
     filedata = f.read()
-    with open("traite_dico.txt", "w") as doc:
+    with open("voltaire_dico.txt", "w") as doc:
         for i, y in results.items():
             print(i, " : ", y, file=doc)
             print(i)
@@ -469,7 +469,7 @@ if __name__ == "__main__":
             	filedata = filedata.replace(i,y)
             	#print(filedata)
 
-    with open('traite_out.txt','w', encoding='utf-8') as f_out:
+    with open('voltaire_out.txt','w', encoding='utf-8') as f_out:
         f_out.write(filedata)
         
 

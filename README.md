@@ -1,7 +1,6 @@
 ## Norma Lisa
 
-Outil à base de règles et de ressources linguistiques pour normaliser automatiquement l'orthographe de textes français.
-Ce script a été élaboré à l'occasion d'une collaboration de plusieurs mois avec l'équipe d'ARTFL (Université de Chicago) au printemps 2018.
+Outil à base de règles et de ressources linguistiques pour normaliser automatiquement l'orthographe de textes français. Ce script a été élaboré par Marine Riguet, à l'occasion d'une collaboration de plusieurs mois avec l'équipe d'ARTFL (Université de Chicago) au printemps 2018.
 
 ### Objectifs
 
